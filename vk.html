@@ -3,21 +3,12 @@
 <head>
     <title>ContactVK</title>
     <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
-    <style>
-            #inner {
-                display: table;
-            }
-    </style>
 </head>
 <body>
-        <div style="width:100%">
-                <div id="inner">
-                    <div id="vk_subscribe"></div>
-                    <script type="text/javascript">
-                    VK.Widgets.Subscribe("vk_subscribe", {}, 507879684);
-                    </script>
-                </div>
-        </div>
+        <div id="vk_subscribe"></div>
+        <script type="text/javascript">
+        VK.Widgets.Subscribe("vk_subscribe", {}, 507879684);
+        </script>
         <!-- VK Widget -->
         <div id="vk_community_messages"></div>
         <script type="text/javascript">
