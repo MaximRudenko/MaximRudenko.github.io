@@ -4,7 +4,7 @@
     <title>ContactVK</title>
     <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
     <style>
-            #vk_subscribe {
+            #inner {
                 display: table;
                 margin: 0 auto;
             }
@@ -12,10 +12,12 @@
 </head>
 <body>
         <div style="width:100%">
-                <div id="vk_subscribe"></div>
-                <script type="text/javascript">
-                VK.Widgets.Subscribe("vk_subscribe", {}, 507879684);
-                </script>
+                <div id="inner">
+                    <div id="vk_subscribe"></div>
+                    <script type="text/javascript">
+                    VK.Widgets.Subscribe("vk_subscribe", {}, 507879684);
+                    </script>
+                </div>
         </div>
         <!-- VK Widget -->
         <div id="vk_community_messages"></div>
